@@ -53,7 +53,7 @@ jobs:
         run: terraform plan -out=tfplan
          
       - name: Terraform Apply
-        run: terraform apply -auto -approve
+        run: terraform apply -auto-approve
 
     # # This enforces manual approval in GitHub "Environments"
     # environment: production
